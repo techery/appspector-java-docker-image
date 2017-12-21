@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker build -t techeryio/appspector-java-docker-image:0.1 .
+docker push techeryio/appspector-java-docker-image:0.1
